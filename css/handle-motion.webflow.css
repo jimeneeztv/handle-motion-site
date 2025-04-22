@@ -1,0 +1,182 @@
+@font-face {
+  font-family: "TWK Lausanne 350";
+  src: url('../fonts/TWKLausanne-350.woff') format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+h1 {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 110%;
+}
+
+p {
+  color: #fff;
+  margin-bottom: 0;
+  font-family: "TWK Lausanne 350", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 110%;
+}
+
+a {
+  color: #fff;
+  font-family: "TWK Lausanne 350", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 110%;
+  text-decoration: none;
+}
+
+.body {
+  background-color: #000;
+}
+
+.home-section {
+  min-width: 100vw;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+}
+
+.home-left {
+  width: 100%;
+}
+
+.home-right {
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+}
+
+.rodrigo-pfp {
+  width: 50%;
+  max-width: 350px;
+}
+
+.intro-p-div {
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+
+.intro-p {
+  width: 66%;
+}
+
+.intro-div {
+  grid-column-gap: 60px;
+  grid-row-gap: 60px;
+  flex-flow: column;
+  display: flex;
+}
+
+.links-div {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.content-div {
+  grid-column-gap: 120px;
+  grid-row-gap: 120px;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.underline-link {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+}
+
+.content-p-div {
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.contact-div {
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  flex-flow: column;
+  width: 66%;
+  display: flex;
+}
+
+.contact-item {
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  display: flex;
+}
+
+.h1 {
+  font-family: "TWK Lausanne 350", Arial, sans-serif;
+  font-weight: 300;
+}
+
+.socials-div {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  width: 66%;
+  display: grid;
+}
+
+.socials-stack {
+  grid-column-gap: 7px;
+  grid-row-gap: 7px;
+  flex-flow: column;
+  display: flex;
+}
+
+.utility-page-wrap {
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  max-height: 100%;
+  display: flex;
+}
+
+.utility-page-content {
+  text-align: center;
+  flex-direction: column;
+  width: 260px;
+  display: flex;
+}
+
+.utility-page-form {
+  flex-direction: column;
+  align-items: stretch;
+  display: flex;
+}
+
+#w-node-d24b0bdf-6f61-2ec2-7309-16745be07075-853fbe2e {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+
+@font-face {
+  font-family: 'TWK Lausanne 350';
+  src: url('../fonts/TWKLausanne-350.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
