@@ -1,1 +1,17 @@
+# macOS cruft
+.DS_Store
+
+# Vercel local settings
 .vercel
+
+# Node.js (future-proofing)
+node_modules
+dist
+.env
+.env.local
+.env.production
+
+# Editor configs
+.vscode
+.idea
+*.log
