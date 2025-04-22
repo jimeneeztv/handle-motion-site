@@ -6,6 +6,11 @@
   font-display: swap;
 }
 
+::selection {
+  background-color: #ff0000;
+  color: #fff;
+}
+
 h1 {
   color: #fff;
   margin-top: 0;
